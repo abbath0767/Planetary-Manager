@@ -1,0 +1,3 @@
+rootProject.name='Planetary Manager'
+include ':app'
+include ':SharedCode'
