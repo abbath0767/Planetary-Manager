@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tab_planets"
+        android:icon="@drawable/ic_stub"
+        android:title="@string/planets" />
+    <item
+        android:id="@+id/tab_resources"
+        android:icon="@drawable/ic_stub"
+        android:title="@string/resources" />
+    <item
+        android:id="@+id/tab_systems"
+        android:icon="@drawable/ic_stub"
+        android:title="@string/systems" />
+    <item
+        android:id="@+id/tab_market"
+        android:icon="@drawable/ic_stub"
+        android:title="@string/market" />
+    <item
+        android:id="@+id/tab_profile"
+        android:icon="@drawable/ic_stub"
+        android:title="@string/profile" />
+
+</menu>
