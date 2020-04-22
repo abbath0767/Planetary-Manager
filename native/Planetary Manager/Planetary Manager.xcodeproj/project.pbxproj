@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11A73B942450AB1200063119 /* MyPlanets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A73B932450AB1200063119 /* MyPlanets.swift */; };
+		11A73B962450AB5900063119 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A73B952450AB5900063119 /* Resources.swift */; };
+		11A73B982450AB7100063119 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A73B972450AB7100063119 /* Market.swift */; };
+		11A73B9A2450AB8700063119 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A73B992450AB8700063119 /* Profile.swift */; };
 		11EDE7612443492D008DC504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EDE7602443492D008DC504 /* AppDelegate.swift */; };
 		11EDE7632443492D008DC504 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EDE7622443492D008DC504 /* SceneDelegate.swift */; };
 		11EDE7652443492D008DC504 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EDE7642443492D008DC504 /* ContentView.swift */; };
@@ -32,6 +36,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		11A73B932450AB1200063119 /* MyPlanets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanets.swift; sourceTree = "<group>"; };
+		11A73B952450AB5900063119 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		11A73B972450AB7100063119 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		11A73B992450AB8700063119 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		11EDE75D2443492D008DC504 /* Planetary Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Planetary Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11EDE7602443492D008DC504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11EDE7622443492D008DC504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +63,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11A73B902450AAE700063119 /* tabs */ = {
+			isa = PBXGroup;
+			children = (
+				11A73B932450AB1200063119 /* MyPlanets.swift */,
+				11A73B952450AB5900063119 /* Resources.swift */,
+				11A73B972450AB7100063119 /* Market.swift */,
+				11A73B992450AB8700063119 /* Profile.swift */,
+			);
+			path = tabs;
+			sourceTree = "<group>";
+		};
 		11EDE7542443492D008DC504 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +94,7 @@
 		11EDE75F2443492D008DC504 /* Planetary Manager */ = {
 			isa = PBXGroup;
 			children = (
+				11A73B902450AAE700063119 /* tabs */,
 				11EDE7602443492D008DC504 /* AppDelegate.swift */,
 				11EDE7622443492D008DC504 /* SceneDelegate.swift */,
 				11EDE7642443492D008DC504 /* ContentView.swift */,
@@ -196,6 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A73B942450AB1200063119 /* MyPlanets.swift in Sources */,
+				11A73B982450AB7100063119 /* Market.swift in Sources */,
+				11A73B962450AB5900063119 /* Resources.swift in Sources */,
+				11A73B9A2450AB8700063119 /* Profile.swift in Sources */,
 				11EDE7612443492D008DC504 /* AppDelegate.swift in Sources */,
 				11EDE7632443492D008DC504 /* SceneDelegate.swift in Sources */,
 				11EDE7652443492D008DC504 /* ContentView.swift in Sources */,

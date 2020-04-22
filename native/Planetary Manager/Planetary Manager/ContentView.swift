@@ -11,9 +11,35 @@ import SharedCode
 
 struct ContentView: View {
     var body: some View {
-        Text(CommonKt.getPlatformNameValue())
-            .font(.system(size: 26))
-        .bold()
+        TabView {
+            MyPlanets()
+                .tabItem{
+                    Image(systemName: "person.circle.fill")
+                    Text("My planets")
+            }.tag(1)
+        
+            Resources()
+                .tabItem{
+                    Text("Resources")
+                    Image(systemName: "person.circle.fill")
+                    
+            }.tag(2)
+            
+            Market()
+                .tabItem{
+                    Text("Market")
+                    Image(systemName: "person.circle.fill")
+                    
+            }.tag(3)
+            
+            Profile()
+                .tabItem{
+                    Text("Profile")
+                    Image(systemName: "person.circle.fill")
+                    
+            }.tag(4)
+        }.accentColor(.red)
+            .colorScheme(.dark)
     }
 }
 
